@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+/* ---------- GLOBAL BACKGROUND ---------- */
+body {
+    min-height: 100vh;
+    background: #dff5ea; /* pastel green */
+}
+
+/* ---------- CENTER PAGES ---------- */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------- CARD ---------- */
+.card {
+    background: #ffffff;
+    width: 440px;
+    padding: 35px 40px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* ---------- HEADINGS ---------- */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2f6f55;
+}
+
+/* ---------- INPUT GROUP ---------- */
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    transform: translateY(-50%);
+    color: #5fa68b;
+    font-size: 18px;
+}
+
+/* ---------- INPUTS ---------- */
+input {
+    width: 100%;
+    padding: 16px 16px 16px 45px;
+    border-radius: 10px;
+    border: 1px solid #b8d8c9;
+    font-size: 17px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #5fa68b;
+}
+
+/* ---------- BUTTON ---------- */
+button {
+    width: 100%;
+    padding: 14px;
+    background: #5fa68b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4b8e75;
+}
+
+/* ---------- LINKS ---------- */
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+a {
+    color: #2f6f55;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ---------- DASHBOARD ---------- */
+.dashboard-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+.dashboard-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #2f6f55;
+}
+
+/* ---------- TEXTAREA ---------- */
+textarea {
+    width: 100%;
+    height: 130px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #b8d8c9;
+    font-size: 15px;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+/* ---------- FILE INPUT ---------- */
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+/* ---------- RESULTS ---------- */
+.result-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    background: #eefaf4;
+    padding: 14px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+/* ---------- LOGOUT ---------- */
+.logout {
+    text-align: right;
+    margin-bottom: 10px;
+}

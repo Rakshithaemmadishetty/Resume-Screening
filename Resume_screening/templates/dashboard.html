@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+<div class="dashboard-container">
+
+    <div class="logout">
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </div>
+
+    <div class="dashboard-title">
+        <i class="fa-solid fa-file-circle-check"></i>
+        Resume Screening Dashboard
+    </div>
+
+    <form method="POST" enctype="multipart/form-data">
+        <textarea name="job" placeholder="Paste Job Description here..." required></textarea>
+
+        <input type="file" name="resumes" multiple required>
+
+        <button type="submit">
+            <i class="fa-solid fa-ranking-star"></i> Rank Resumes
+        </button>
+    </form>
+
+</div>
+
+</body>
+</html>
